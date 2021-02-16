@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class searchingTests {
 
+    // Можно будет удалить, вместо него исправленная версия в SearchGoogleTest
     @Test
     void selenideSearchTest() {
         open("https://www.google.com/");
